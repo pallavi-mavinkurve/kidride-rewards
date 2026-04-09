@@ -1,0 +1,80 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function roleFor(uid) {
+      return get(/databases/$(database)/documents/users/$(uid)).data.role;
+    }
+
+    function isParent() {
+      return isSignedIn() && roleFor(request.auth.uid) == "parent";
+    }
+
+    function isChild() {
+      return isSignedIn() && roleFor(request.auth.uid) == "child";
+    }
+
+    function sameFamily(resourceFamilyId) {
+      return isSignedIn() &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.familyId == resourceFamilyId;
+    }
+
+    match /users/{uid} {
+      allow read: if isSignedIn() && request.auth.uid == uid;
+      allow create: if isSignedIn() && request.auth.uid == uid;
+      allow update: if isSignedIn() && request.auth.uid == uid;
+      allow delete: if false;
+    }
+
+    match /rider_profiles/{profileId} {
+      allow read: if isSignedIn() && sameFamily(resource.data.familyId);
+      allow write: if isParent() && sameFamily(request.resource.data.familyId);
+    }
+
+    match /ride_telemetry/{rideId} {
+      allow read: if isSignedIn() && sameFamily(resource.data.familyId);
+      // Child app can upload telemetry but must only write their own profile/family.
+      allow create: if isSignedIn()
+        && sameFamily(request.resource.data.familyId)
+        && request.resource.data.childUserId == request.auth.uid;
+      allow update, delete: if isParent() && sameFamily(resource.data.familyId);
+    }
+
+    match /badges/{badgeId} {
+      allow read: if isSignedIn() && sameFamily(resource.data.familyId);
+      // Badge changes should come from Cloud Functions.
+      allow write: if false;
+    }
+
+    match /wallets/{walletId} {
+      allow read: if isSignedIn() && sameFamily(resource.data.familyId);
+      // Wallet mutations should come from Cloud Functions.
+      allow write: if false;
+    }
+
+    match /wallet_transactions/{transactionId} {
+      allow read: if isSignedIn() && sameFamily(resource.data.familyId);
+      // Only Cloud Functions should create validated purchases/earnings.
+      allow write: if false;
+    }
+
+    match /geofence_zones/{zoneId} {
+      allow read: if isSignedIn() && sameFamily(resource.data.familyId);
+      allow create, update, delete: if isParent() && sameFamily(request.resource.data.familyId);
+    }
+
+    match /geofence_alerts/{alertId} {
+      allow read: if isSignedIn() && sameFamily(resource.data.familyId);
+      // Alerts should be written by trusted backend workers/functions.
+      allow write: if false;
+    }
+
+    match /store_items/{itemId} {
+      allow read: if isSignedIn();
+      allow write: if false;
+    }
+  }
+}

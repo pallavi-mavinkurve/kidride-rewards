@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D7B20E354A09C61C4893329 /* TelematicsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D512BCE112590AB707D8042 /* TelematicsService.swift */; };
+		1E86E2E9C0D63950B71CAE1A /* HomeDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65288A0079FEC73DE9297C /* HomeDashboardView.swift */; };
+		25117BA0D16F23372958C238 /* BackendFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28715F7DB2BE2049E50A8348 /* BackendFactory.swift */; };
+		2777B64C636476BE25F51407 /* AuthGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E10598B8C1B23C71B633FEA /* AuthGateView.swift */; };
+		28C23865284B7725995B788C /* ParentShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9CD80C29697D8680C4906 /* ParentShareView.swift */; };
+		403BB1DF48498ED158721D2D /* FirestoreTelematicsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD05561DA88EF5ADCAB414 /* FirestoreTelematicsService.swift */; };
+		652DD6D7EF4A15F313B01730 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BF01A10297AF59E64D459B /* RootTabView.swift */; };
+		6877B18AA293438B9F7D2B8C /* RideIngestionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BD99620FF22A9868F6392 /* RideIngestionService.swift */; };
+		68AC257BA96B339504E4EB07 /* SafetyCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C2AC5DBD76F08BF837046 /* SafetyCenterView.swift */; };
+		848245DF4D517FD7AC5E836B /* RideHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9A2E9FCEA518C0B098416 /* RideHistoryView.swift */; };
+		91E18DFB661A267663173720 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6819F1F18D79834E8D53BD /* FirebaseAuthService.swift */; };
+		927A823BF8CD58EE863FF4EA /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD999C0042EFFD3D43ADA707 /* MetricCard.swift */; };
+		9668AE715655CE262D34F6C7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1529586266E18EC501167 /* AuthService.swift */; };
+		9D0DBAC8FA07D79587582770 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44475AE63D41B5524F8319 /* DashboardViewModel.swift */; };
+		BFDBA439D67C9FD7933C1B49 /* GamificationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63639C491816442F70D8A94A /* GamificationModels.swift */; };
+		C81A0D7C567DC5BE2415EC0C /* KidRideRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD873FD20EDB4A137469111D /* KidRideRewardsApp.swift */; };
+		DC1789A6DA593C41E7F5DF4B /* FirebaseBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EFDA198B1C5FFD75F2BF5A /* FirebaseBootstrap.swift */; };
+		F720141D0C5B7B087F0BB56C /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7902855048A80ED392BC35 /* RewardsView.swift */; };
+		F9A5D7D91B581CD4CFEE6521 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAB4EA35276B0AC143E28A /* AppTheme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE987990F74C702778354BFB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10C1529586266E18EC501167 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		13EFDA198B1C5FFD75F2BF5A /* FirebaseBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseBootstrap.swift; sourceTree = "<group>"; };
+		28715F7DB2BE2049E50A8348 /* BackendFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendFactory.swift; sourceTree = "<group>"; };
+		31BF01A10297AF59E64D459B /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		4C44475AE63D41B5524F8319 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		5DAAB4EA35276B0AC143E28A /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		5E7902855048A80ED392BC35 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		63639C491816442F70D8A94A /* GamificationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationModels.swift; sourceTree = "<group>"; };
+		6D512BCE112590AB707D8042 /* TelematicsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelematicsService.swift; sourceTree = "<group>"; };
+		715BD99620FF22A9868F6392 /* RideIngestionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideIngestionService.swift; sourceTree = "<group>"; };
+		78C9CD80C29697D8680C4906 /* ParentShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentShareView.swift; sourceTree = "<group>"; };
+		7E10598B8C1B23C71B633FEA /* AuthGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGateView.swift; sourceTree = "<group>"; };
+		8D9E1D17EB2ADBD3B05860A4 /* KidRideRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidRideRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		984C2AC5DBD76F08BF837046 /* SafetyCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyCenterView.swift; sourceTree = "<group>"; };
+		B0BD05561DA88EF5ADCAB414 /* FirestoreTelematicsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreTelematicsService.swift; sourceTree = "<group>"; };
+		BEA9A2E9FCEA518C0B098416 /* RideHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryView.swift; sourceTree = "<group>"; };
+		CD873FD20EDB4A137469111D /* KidRideRewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidRideRewardsApp.swift; sourceTree = "<group>"; };
+		DD999C0042EFFD3D43ADA707 /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCard.swift; sourceTree = "<group>"; };
+		DF65288A0079FEC73DE9297C /* HomeDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboardView.swift; sourceTree = "<group>"; };
+		E61B56D19D53DA4436EDFC36 /* KidRideRewards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KidRideRewards-Info.plist"; sourceTree = "<group>"; };
+		EF6819F1F18D79834E8D53BD /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF8D9814700F46FF8A9D6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDFC6571F92FB40A7BDB128 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				49304E8BBF196B1176AAF2F5 /* InfoPlists */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		49304E8BBF196B1176AAF2F5 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				E61B56D19D53DA4436EDFC36 /* KidRideRewards-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		583C1D2F7E293961A5FAFE09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C3615BE42E77E703E596B1A /* Components */,
+				7E10598B8C1B23C71B633FEA /* AuthGateView.swift */,
+				DF65288A0079FEC73DE9297C /* HomeDashboardView.swift */,
+				78C9CD80C29697D8680C4906 /* ParentShareView.swift */,
+				5E7902855048A80ED392BC35 /* RewardsView.swift */,
+				BEA9A2E9FCEA518C0B098416 /* RideHistoryView.swift */,
+				31BF01A10297AF59E64D459B /* RootTabView.swift */,
+				984C2AC5DBD76F08BF837046 /* SafetyCenterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		632B50E7800B2F1D10C3820D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4C44475AE63D41B5524F8319 /* DashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69F9D4DBB46FFFE698B3C08D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D9E1D17EB2ADBD3B05860A4 /* KidRideRewards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C3615BE42E77E703E596B1A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5DAAB4EA35276B0AC143E28A /* AppTheme.swift */,
+				DD999C0042EFFD3D43ADA707 /* MetricCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		917F3683B891777BB31AED26 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				3FDFC6571F92FB40A7BDB128 /* Derived */,
+				B33FFCDDBC1AFB2E75FA1BC3 /* Models */,
+				F1D8AB67C22397F9BF6B693C /* Services */,
+				632B50E7800B2F1D10C3820D /* ViewModels */,
+				583C1D2F7E293961A5FAFE09 /* Views */,
+				CD873FD20EDB4A137469111D /* KidRideRewardsApp.swift */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		B33FFCDDBC1AFB2E75FA1BC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63639C491816442F70D8A94A /* GamificationModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1D8AB67C22397F9BF6B693C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				10C1529586266E18EC501167 /* AuthService.swift */,
+				28715F7DB2BE2049E50A8348 /* BackendFactory.swift */,
+				EF6819F1F18D79834E8D53BD /* FirebaseAuthService.swift */,
+				13EFDA198B1C5FFD75F2BF5A /* FirebaseBootstrap.swift */,
+				B0BD05561DA88EF5ADCAB414 /* FirestoreTelematicsService.swift */,
+				715BD99620FF22A9868F6392 /* RideIngestionService.swift */,
+				6D512BCE112590AB707D8042 /* TelematicsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FDD05E70BDBF5E20FA25FD42 = {
+			isa = PBXGroup;
+			children = (
+				69F9D4DBB46FFFE698B3C08D /* Products */,
+				917F3683B891777BB31AED26 /* Project */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26E9D92BACEF35B0E6C0062 /* KidRideRewards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC586B062CF2766E4D0BC82E /* Build configuration list for PBXNativeTarget "KidRideRewards" */;
+			buildPhases = (
+				9CF3C0F781FC1E9BCBE3E2B8 /* Sources */,
+				EA74F811FCB047FF6174F74C /* Resources */,
+				CDF8D9814700F46FF8A9D6C3 /* Frameworks */,
+				CE987990F74C702778354BFB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidRideRewards;
+			packageProductDependencies = (
+			);
+			productName = KidRideRewards;
+			productReference = 8D9E1D17EB2ADBD3B05860A4 /* KidRideRewards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D9C1C433C1C9997FC194AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = C2C272FB076622CF2CC5464F /* Build configuration list for PBXProject "KidRideRewards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FDD05E70BDBF5E20FA25FD42;
+			productRefGroup = 69F9D4DBB46FFFE698B3C08D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26E9D92BACEF35B0E6C0062 /* KidRideRewards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA74F811FCB047FF6174F74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CF3C0F781FC1E9BCBE3E2B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81A0D7C567DC5BE2415EC0C /* KidRideRewardsApp.swift in Sources */,
+				BFDBA439D67C9FD7933C1B49 /* GamificationModels.swift in Sources */,
+				9668AE715655CE262D34F6C7 /* AuthService.swift in Sources */,
+				25117BA0D16F23372958C238 /* BackendFactory.swift in Sources */,
+				91E18DFB661A267663173720 /* FirebaseAuthService.swift in Sources */,
+				DC1789A6DA593C41E7F5DF4B /* FirebaseBootstrap.swift in Sources */,
+				403BB1DF48498ED158721D2D /* FirestoreTelematicsService.swift in Sources */,
+				6877B18AA293438B9F7D2B8C /* RideIngestionService.swift in Sources */,
+				1D7B20E354A09C61C4893329 /* TelematicsService.swift in Sources */,
+				9D0DBAC8FA07D79587582770 /* DashboardViewModel.swift in Sources */,
+				2777B64C636476BE25F51407 /* AuthGateView.swift in Sources */,
+				F9A5D7D91B581CD4CFEE6521 /* AppTheme.swift in Sources */,
+				927A823BF8CD58EE863FF4EA /* MetricCard.swift in Sources */,
+				1E86E2E9C0D63950B71CAE1A /* HomeDashboardView.swift in Sources */,
+				28C23865284B7725995B788C /* ParentShareView.swift in Sources */,
+				F720141D0C5B7B087F0BB56C /* RewardsView.swift in Sources */,
+				848245DF4D517FD7AC5E836B /* RideHistoryView.swift in Sources */,
+				652DD6D7EF4A15F313B01730 /* RootTabView.swift in Sources */,
+				68AC257BA96B339504E4EB07 /* SafetyCenterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23D37C8E571090C56F8FCB99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C03E88A1037DBAEA2F617729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/KidRideRewards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidride.rewards;
+				PRODUCT_NAME = KidRideRewards;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4C9511D910DB92CE91FD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75FCEF11A3A4AB78357B89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/KidRideRewards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidride.rewards;
+				PRODUCT_NAME = KidRideRewards;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2C272FB076622CF2CC5464F /* Build configuration list for PBXProject "KidRideRewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D37C8E571090C56F8FCB99 /* Debug */,
+				CD4C9511D910DB92CE91FD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC586B062CF2766E4D0BC82E /* Build configuration list for PBXNativeTarget "KidRideRewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E88A1037DBAEA2F617729 /* Debug */,
+				F75FCEF11A3A4AB78357B89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D9C1C433C1C9997FC194AF7 /* Project object */;
+}

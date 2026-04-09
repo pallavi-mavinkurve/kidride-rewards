@@ -1,0 +1,19 @@
+.DS_Store
+
+# Xcode
+build/
+Derived/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# Firebase functions
+functions/node_modules/
+functions/lib/
+
+# Tuist cache and local files
+.tuist-cache/
