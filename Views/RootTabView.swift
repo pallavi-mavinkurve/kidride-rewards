@@ -25,6 +25,16 @@ struct RootTabView: View {
                     Label("Safety", systemImage: "cross.case.fill")
                 }
 
+            VirtualCarSimulatorView()
+                .tabItem {
+                    Label("Simulator", systemImage: "car.fill")
+                }
+
+            TestPrepView()
+                .tabItem {
+                    Label("Test Prep", systemImage: "checklist")
+                }
+
             ParentShareView()
                 .tabItem {
                     Label(viewModel.isParent ? "Parent Hub" : "Family", systemImage: "person.2.fill")

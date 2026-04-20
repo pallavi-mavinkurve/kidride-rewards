@@ -1,9 +1,15 @@
 import SwiftUI
 
 enum AppTheme {
-    static let navy = Color(red: 8.0 / 255.0, green: 28.0 / 255.0, blue: 74.0 / 255.0)
-    static let deepNavy = Color(red: 4.0 / 255.0, green: 19.0 / 255.0, blue: 52.0 / 255.0)
-    static let softBlue = Color(red: 53.0 / 255.0, green: 106.0 / 255.0, blue: 185.0 / 255.0)
+    // Brand primary colors:
+    // - Blue: #004A86
+    // - Red:  #D92332
+    static let primaryBlue = Color(red: 0.0 / 255.0, green: 74.0 / 255.0, blue: 134.0 / 255.0)
+    static let primaryRed = Color(red: 217.0 / 255.0, green: 35.0 / 255.0, blue: 50.0 / 255.0)
+
+    static let navy = primaryBlue
+    static let deepNavy = Color(red: 0.0 / 255.0, green: 50.0 / 255.0, blue: 90.0 / 255.0)
+    static let softBlue = Color(red: 58.0 / 255.0, green: 125.0 / 255.0, blue: 193.0 / 255.0)
     static let appBackground = Color(red: 246.0 / 255.0, green: 248.0 / 255.0, blue: 252.0 / 255.0)
     static let cardBackground = Color.white
 }

@@ -17,10 +17,12 @@
 		6877B18AA293438B9F7D2B8C /* RideIngestionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BD99620FF22A9868F6392 /* RideIngestionService.swift */; };
 		68AC257BA96B339504E4EB07 /* SafetyCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C2AC5DBD76F08BF837046 /* SafetyCenterView.swift */; };
 		848245DF4D517FD7AC5E836B /* RideHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9A2E9FCEA518C0B098416 /* RideHistoryView.swift */; };
+		8A06C6F7863509AE41B38854 /* TestPrepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B219C51CA78A5EFD4E1CD5F /* TestPrepView.swift */; };
 		91E18DFB661A267663173720 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6819F1F18D79834E8D53BD /* FirebaseAuthService.swift */; };
 		927A823BF8CD58EE863FF4EA /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD999C0042EFFD3D43ADA707 /* MetricCard.swift */; };
 		9668AE715655CE262D34F6C7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1529586266E18EC501167 /* AuthService.swift */; };
 		9D0DBAC8FA07D79587582770 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44475AE63D41B5524F8319 /* DashboardViewModel.swift */; };
+		B939754FF6EE7EC76F646DF1 /* VirtualCarSimulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334E7F6DE9F13ACC2F75C26 /* VirtualCarSimulatorView.swift */; };
 		BFDBA439D67C9FD7933C1B49 /* GamificationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63639C491816442F70D8A94A /* GamificationModels.swift */; };
 		C81A0D7C567DC5BE2415EC0C /* KidRideRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD873FD20EDB4A137469111D /* KidRideRewardsApp.swift */; };
 		DC1789A6DA593C41E7F5DF4B /* FirebaseBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EFDA198B1C5FFD75F2BF5A /* FirebaseBootstrap.swift */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		10C1529586266E18EC501167 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		13EFDA198B1C5FFD75F2BF5A /* FirebaseBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseBootstrap.swift; sourceTree = "<group>"; };
+		1B219C51CA78A5EFD4E1CD5F /* TestPrepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPrepView.swift; sourceTree = "<group>"; };
+		2334E7F6DE9F13ACC2F75C26 /* VirtualCarSimulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualCarSimulatorView.swift; sourceTree = "<group>"; };
 		28715F7DB2BE2049E50A8348 /* BackendFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendFactory.swift; sourceTree = "<group>"; };
 		31BF01A10297AF59E64D459B /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		4C44475AE63D41B5524F8319 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				BEA9A2E9FCEA518C0B098416 /* RideHistoryView.swift */,
 				31BF01A10297AF59E64D459B /* RootTabView.swift */,
 				984C2AC5DBD76F08BF837046 /* SafetyCenterView.swift */,
+				1B219C51CA78A5EFD4E1CD5F /* TestPrepView.swift */,
+				2334E7F6DE9F13ACC2F75C26 /* VirtualCarSimulatorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 				848245DF4D517FD7AC5E836B /* RideHistoryView.swift in Sources */,
 				652DD6D7EF4A15F313B01730 /* RootTabView.swift in Sources */,
 				68AC257BA96B339504E4EB07 /* SafetyCenterView.swift in Sources */,
+				8A06C6F7863509AE41B38854 /* TestPrepView.swift in Sources */,
+				B939754FF6EE7EC76F646DF1 /* VirtualCarSimulatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
